@@ -1,0 +1,13 @@
+.element{
+  margin: auto;
+  margin-top: 5%;
+  width: 600px;
+  height: 600px;
+  background-color: pink;
+  transition: all .5s ease-in-out;
+}
+
+.element:hover{
+  background-color: black;
+  transform: scale(0.9);
+}

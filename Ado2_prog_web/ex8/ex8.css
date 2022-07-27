@@ -1,0 +1,26 @@
+.cabecalho ul{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      font-weight:bold;
+  }
+.cabecalho a{
+  color: black;
+}
+.cabecalho li{
+  flex-grow: 4;
+  padding: 20px;
+  text-align: center;
+}
+
+.c{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10%;
+}
+
+.c div{
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+}

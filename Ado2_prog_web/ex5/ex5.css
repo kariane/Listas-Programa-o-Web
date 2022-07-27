@@ -1,0 +1,65 @@
+.noticia-1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.noticia-2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.noticia-3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+
+.titulo{
+  text-align: center;
+}
+
+.noticias{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.noticia {
+  display: flex;
+  flex-direction: row ;
+  margin: auto;
+  border: solid 3px black;
+  margin-bottom: 2%;
+  padding: 10px;
+}
+
+.CampoNoticia{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.noticia img{
+  width: 150px;
+  height: 150px;
+}
+
+.noticia h3{
+  padding: 10px;
+  color: purple
+}
+
+.noticia p{
+  padding: 10px;
+}
+
+.italico{
+  font-style: italic;
+  font-size: .75em;
+}
+
+.negrito{
+  font-weight: bold;
+  color: pink
+}
+
+.noticia a{
+  color: black;
+}
+

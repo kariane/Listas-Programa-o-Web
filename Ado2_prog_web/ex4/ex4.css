@@ -1,0 +1,25 @@
+.tabela table{
+  width: 55%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.tabela td:nth-child(1) {
+  text-align: left;
+  background-color: pink;
+}
+
+.tabela td:nth-child(2) {
+  text-align: left;
+  background-color: rgb(130, 219, 150);
+}
+
+.tabela td:nth-child(3) {
+  text-align: left;
+  background-color: rgb(139, 130, 214);
+}
+
+.tabela td:nth-child(4) {
+text-align: right;
+  background-color: rgb(135, 212, 209);
+}
